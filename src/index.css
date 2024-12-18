@@ -1,0 +1,62 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 100px; */
+  flex-direction: column;
+  
+  padding: 50px;
+ 
+}
+ 
+
+
+img{
+  border-radius: 50%;
+  align-items: center;
+  margin: auto;
+  
+}
+
+.display{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.btn
+{
+  display: flex;
+  
+  justify-content: center;
+ 
+}
+
+.btn button{
+  padding: 8px 15px;
+  margin:20px;
+  outline: 1px solid rgb(155, 152, 152);
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: rgb(241, 244, 244);
+  border-radius: 50px;
+}
+
+#signInDiv
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
